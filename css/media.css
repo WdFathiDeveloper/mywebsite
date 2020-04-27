@@ -1,0 +1,93 @@
+@media all and (min-width: 500px) and (max-width: 768px){
+    .nav-link {
+        display: block;
+        position: static;
+        font-size: 18px;
+        padding: 1rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .nav-link:hover {
+        transition: all .3s ease-in-out;
+        color: #eece1a;
+        font-size: 25px;
+    }
+    li {
+        display: block;
+        text-align: -webkit-match-parent;
+    }
+    main {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .menu-nav,
+    .menu-branding {float: none;width: 100%;display: block;}
+    .menu-branding {height: 35vh;}
+    .menu-nav {height: 75vh;}
+
+    .about-info {
+        grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+        grid-template-columns: 1fr;
+    }
+     .portrait {
+        width: 160px;
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        border: 4px solid #f5f4ec;
+        box-shadow: 0px 10px 30px 15px rgba(0, 0, 0, .5);
+        margin-left: 35%;  
+    } 
+    .projects {grid-template-columns: 1fr;}
+    .project-title {font-size: 1rem;}
+
+    .main-lg-heading {
+        width: 100%;
+        display: inline-block;
+        text-transform: capitalize;
+        font-size: 2.1rem;
+        font-weight: bolder;
+        margin-bottom: 60px;
+        animation: bounceInRight 3s 2s 1 both;
+    }
+    .container {
+        width: auto;
+        text-align: center;
+    }
+
+    .my-skills .skills p:last-of-type{
+    line-height: 1.5;
+    color: white;
+    width:auto;
+    text-align: center;
+}
+.bio-img {
+    width: 280px;
+    height: 280px;
+    grid-area: bioimage;
+    margin-top: 80px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid #f5f4ec;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, .5);
+}
+.bio-title {
+    padding-top: 80px;
+    font-size: 32px;
+    letter-spacing: 0.5rem;
+    font-weight: bolder;
+    animation: fadeInLeft 3s 4s 1 both;
+}
+.about-info p {
+    animation: fadeInLeft 3s 6s 1 both;
+}
+.lg-heading {
+    font-size: 3.5rem;    
+}
+.sm-heading{font-size: 18px;}
+}
