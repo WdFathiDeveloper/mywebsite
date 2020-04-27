@@ -1,5 +1,8 @@
 @import url('style.css');
 @media all and (min-width: 320px) and (max-width: 768px){
+
+    /* start navbar */
+
     .nav-link {
         display: block;
         position: static;
@@ -20,16 +23,19 @@
         display: block;
         text-align: -webkit-match-parent;
     }
-    main {
-        align-items: center;
-        text-align: center;
-    }
-    
+
     .menu-nav,
     .menu-branding {float: none;width: 100%;display: block;}
     .menu-branding {height: 35vh;}
     .menu-nav {height: 75vh;}
 
+    /* start about page */
+    main {
+        align-items: center;
+        text-align: center;
+        padding: 4rem;
+        height: 100%;
+    }
     .about-info {
         grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
         grid-template-columns: 1fr;
@@ -43,7 +49,30 @@
         border: 4px solid #f5f4ec;
         box-shadow: 0px 10px 30px 15px rgba(0, 0, 0, .5);
         margin-left: 35%;  
-    } 
+    }
+    .center{
+        padding: 20px;
+        width: 70%;
+    }
+    .center h1{font-size: 20px;}
+    .skillbox p{font-size: 14px;}
+    .h-service-box{font-size: 24px;}
+    .services h1{
+        height: 70px;
+        width: 280px;
+    }
+
+    .service-box{
+        width:360;
+        height: 360;
+    }
+    .service-box p {
+        width: 330px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* End about page */
     .projects {grid-template-columns: 1fr;}
     .project-title {font-size: 1rem;}
 
