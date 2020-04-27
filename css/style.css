@@ -366,29 +366,7 @@
     animation: bounceInUp 4s 13s 1 both; 
 }
 .service-box .info{transition: all .5s ease-in-out;}
-.service-box:hover
-{
-    border: 2px solid #EECE1A; 
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    height: 380px;
-    font-size: 22px;
-    transition: all .5s ease-out;
-    transform: translate3d(100px) scale3d(10px);  
-}
-.service-box .info:hover{
-    transform: scaleZ(2) translate3d(0,0,20px);
-    transition: all .5s ease-in-out;
-}
 .service-box .price{transition: all .5s ease-in-out;padding: 10px;}
-.service-box .price:hover{
-    border: 2px solid #EECE1A; 
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    height: 100px;
-    transform: scaleZ(2) translate3d(0,0,20px);
-    transition: all .5s ease-in-out;  
-}
 .h-service-box
 {
     font-weight: bold;
@@ -416,8 +394,7 @@
     width: 350px;
     text-align: center;
     line-height: 35px;
-    color: rgb(248, 248, 185);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .rotate-service-box{animation: rotateInDownLeft 10s 10s infinite both;}

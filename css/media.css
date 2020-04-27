@@ -62,17 +62,32 @@
         width: 280px;
     }
 
-    .service-box{
-        width:360;
-        height: 360;
+    .service-box {
+        transform-style: preserve-3d;
+        display: inline-flex;
+        justify-items: flex-start;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 334px;
+        height: 360px;
+        background: #333;
+        box-sizing: border-box;
+        box-shadow: 10px 20px 50px rgba(0, 0, 0, .5);
+        border-radius: 4px;
+        margin-bottom: 100px;
+        margin-top: 40px;
+        padding: 10px;
+        transition: all 1s ease-in-out;
+        animation: bounceInUp 4s 13s 1 both;
     }
     .service-box p {
         width: 330px;
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     /* End about page */
+    
     .projects {grid-template-columns: 1fr;}
     .project-title {font-size: 1rem;}
 
