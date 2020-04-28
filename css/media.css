@@ -60,6 +60,7 @@
     .services h1{
         height: 70px;
         width: 280px;
+        margin: auto;
     }
 
     .service-box {
