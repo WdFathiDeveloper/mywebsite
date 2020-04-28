@@ -154,19 +154,21 @@
 .boxes {
     display: inline-table;
     margin: auto;
-    width: 50%;
-    justify-items: center;
-    justify-content: center;
+    width: 90%;
+    left:50%;
+    /* justify-items: center;
+    justify-content: center; */
 }
 .boxes div {
-    font-size: 18;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
 }
-.boxes div:hover {font-size: 18px;}
-
 .wrapper{left: 50%;width: 80%;}
 .wrapper h2{font-size: 26px;}
 .fa-2x {
     font-size: 1.8em;
 }
-
+.input-field input{font-size: 14px;} 
+.input-field label{font-size: 16px;}
 }
