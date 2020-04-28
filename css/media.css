@@ -149,14 +149,24 @@
     box-shadow: 2px 16px 11px #262626;
     animation: fadeInLeft 3s 3s 1 both;
 }
+/* contact page */
+
 .boxes {
     display: inline-table;
-    margin: 50px auto;
-    width: 90%;
+    margin: auto;
+    width: 50%;
+    justify-items: center;
+    justify-content: center;
 }
 .boxes div {
-    font-size: 1rem;
+    font-size: 18;
 }
-.boxes div:hover {font-size: 20px;}
+.boxes div:hover {font-size: 18px;}
+
+.wrapper{left: 50%;width: 80%;}
+.wrapper h2{font-size: 26px;}
+.fa-2x {
+    font-size: 1.8em;
+}
 
 }
