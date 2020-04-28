@@ -41,7 +41,8 @@
         grid-template-columns: 1fr;
     }
      .portrait {
-        width: 160px;
+        margin-top: 5px;
+        width: 165px;
         height: 200px;
         background-size: cover;
         background-repeat: no-repeat;
