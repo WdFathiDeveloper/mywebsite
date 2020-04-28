@@ -457,11 +457,12 @@
             color: #000;
             display: left;
             font-size: 1.5rem;
-            background: #eece1a;
             border: .5px solid #eece1a;
             padding: 1rem 2rem;
             margin-bottom: 3rem;
             font-weight: bold;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
             transition: all .5s ease-in-out;
         }
         
@@ -483,7 +484,7 @@
             left: 38%;
             transform: translate(-50%,-50%);
             width: 60%;
-            max-height: 700px;
+            max-height: 680px;
             height: auto;
             padding: 40px;
             box-sizing: border-box;
