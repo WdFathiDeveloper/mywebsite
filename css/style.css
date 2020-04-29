@@ -363,7 +363,8 @@
     margin-left: 35px;
     padding: 10px;
     transition: all 1s ease-in-out;
-    animation: bounceInUp 4s 13s 1 both; 
+    animation: bounceInUp 4s 13s 1 both;
+    opacity: 0.9; 
 }
 .service-box .info{transition: all .5s ease-in-out;}
 .service-box .price{transition: all .5s ease-in-out;padding: 10px;}
